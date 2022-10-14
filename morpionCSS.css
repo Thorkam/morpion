@@ -1,0 +1,60 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    text-align: center;
+    font-size: 70px;
+    font-weight: bold;
+    padding: 30px;
+}
+
+div {
+    padding: 55px;
+}
+
+table {
+    display: flex;
+    border-collapse: collapse;
+    justify-content: center;
+}
+
+td {
+    border: 10px solid black;
+    padding: 70px 70px;
+}
+
+.border1-1{
+    border-top: none;
+    border-left: none;
+}
+.border1-2{
+    border-top: none;
+}
+
+.border1-3{
+    border-top: none;
+    border-right: none;
+}
+
+.border2-1 {
+    border-left: none;
+}
+.border2-3 {
+    border-right: none;
+}
+
+.border3-1 {
+    border-left: none;
+    border-bottom: none;
+}
+.border3-2 {
+    border-bottom: none;
+}
+
+.border3-3 {
+    border-right: none;
+    border-bottom: none;
+}
+
